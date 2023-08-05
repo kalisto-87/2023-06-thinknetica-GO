@@ -1,4 +1,4 @@
-module hw-02
+module thinknetica_go
 
 go 1.20
 

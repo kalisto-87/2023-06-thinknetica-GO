@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"hw-02/hw-02/pkg/crawler"
+	"thinknetica_go/hw-02/pkg/crawler"
 
 	"golang.org/x/net/html"
 )

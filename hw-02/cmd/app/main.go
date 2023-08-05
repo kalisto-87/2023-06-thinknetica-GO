@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"hw-02/hw-02/pkg/crawler"
-	"hw-02/hw-02/pkg/crawler/spider"
 	"strings"
+	"thinknetica_go/hw-02/pkg/crawler"
+	"thinknetica_go/hw-02/pkg/crawler/spider"
 )
 
 func main() {

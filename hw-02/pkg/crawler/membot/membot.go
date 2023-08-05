@@ -1,7 +1,7 @@
 package membot
 
 import (
-	"hw-02/hw-02/pkg/crawler"
+	"thinknetica_go/hw-02/pkg/crawler"
 )
 
 // Service - имитация служба поискового робота.
