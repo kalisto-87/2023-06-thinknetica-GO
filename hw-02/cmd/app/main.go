@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"strings"
-	"thinknetica_go/hw-02/pkg/crawler"
-	"thinknetica_go/hw-02/pkg/crawler/spider"
+	"thinknetica_go/GoSearch/pkg/crawler"
+	"thinknetica_go/GoSearch/pkg/crawler/spider"
 )
 
 func main() {
@@ -32,6 +32,7 @@ func scanPage(s string, depth int) []crawler.Document {
 	sp := spider.New()
 	result, err := sp.Scan(s, depth)
 	if err != nil {
+		fmt.Println(err)
 		return nil
 	}
 	return result
